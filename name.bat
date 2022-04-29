@@ -1,3 +1,4 @@
-echo Enter your Ip : 
+Read-Host -Prompt Enter your Ip : 
+
 set /p Ip=
 ping %Ip%
