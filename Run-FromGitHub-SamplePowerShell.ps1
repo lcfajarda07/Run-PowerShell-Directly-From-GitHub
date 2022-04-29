@@ -14,7 +14,7 @@
 # Invoke-Expression $($ScriptFromGithHub.Content)
 
 Read-Host -Prompt "Input Ip address"
-Write-Host "Here are the top 10 CPU consuming processes right nows"
+Write-Host "Here are the top 10 CPU consuming processes right nowx"
 Write-Host " "
 Get-Process | Sort-Object CPU -Descending | Select-Object -First 10
 
