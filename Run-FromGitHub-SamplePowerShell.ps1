@@ -14,7 +14,8 @@
 # Invoke-Expression $($ScriptFromGithHub.Content)
 
 
-Read-Host -Prompt "Ip Address"
+
+Read-Host -Prompt "Press any key to continue"
 
 
 
