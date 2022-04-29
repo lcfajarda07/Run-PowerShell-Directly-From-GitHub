@@ -13,7 +13,7 @@
 # $ScriptFromGithHub = Invoke-WebRequest https://raw.githubusercontent.com/tomarbuthnot/Run-PowerShell-Directly-From-GitHub/master/Run-FromGitHub-SamplePowerShell.ps1
 # Invoke-Expression $($ScriptFromGithHub.Content)
 
-$Ip = Read-Host -Prompt "Input Ip address"
+$Ip = Read-Host -Prompt "Input Ip addresss"
 ping $Ip
 Write-Host "Here are the top 10 CPU consuming processes right nowx"
 Write-Host " "
