@@ -15,8 +15,6 @@
 
 $Ip = Read-Host -Prompt "Input Ip addresss"
 ping $Ip
-Write-Host "Here are the top 10 CPU consuming processes right nowx"
-Write-Host " "
-Get-Process | Sort-Object CPU -Descending | Select-Object -First 10
+
 
 
